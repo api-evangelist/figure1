@@ -1,8 +1,17 @@
 aid: figure1
 name: Figure1
-description: Figure1 is a company surfaced as a portfolio company of union-square-ventures and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Figure 1 is a Toronto-based social platform and mobile app for verified
+  healthcare professionals to view, share, and discuss real-world, de-identified
+  patient cases and medical images. Founded in 2013 by Dr. Joshua Landy, Richard
+  Penner, and Gregory Levey, it has grown to more than one million healthcare
+  professionals and one of the world's largest libraries of crowd-sourced
+  medical cases, with trained specialists reviewing and de-identifying each
+  image before publication. Figure 1 also produces the DDx medical podcast and a
+  clinical blog, and in 2024 formed the parent company Formedics with Physician's
+  Weekly to deepen healthcare-professional engagement. It is a portfolio company
+  of Union Square Ventures. Figure 1 is a consumer/professional, mobile-first
+  product with no publicly documented developer API.
 url: https://raw.githubusercontent.com/api-evangelist/figure1/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +19,31 @@ x-backed-by:
 - union-square-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-parent-company: Formedics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://app.figure1.com/icon_640x640.jpg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Healthcare
+- Medical Education
+- Health
+- Social Network
+- Mobile App
+- Clinical
+- Physicians
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,24 @@ maintainers:
 common:
 - type: Website
   url: https://figure1.com
+- type: About
+  url: https://www.figure1.com/about-us/
+- type: SignUp
+  url: https://app.figure1.com/
+- type: Login
+  url: https://app.figure1.com/
+- type: Blog
+  url: https://www.figure1.com/resources/blog/
+- type: PrivacyPolicy
+  url: https://www.figure1.com/privacy/
+- type: AppStore
+  url: https://apps.apple.com/us/app/figure-1-medical-cases/id645948529
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.figure1.android
+- type: DomainSecurity
+  url: security/figure1-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
